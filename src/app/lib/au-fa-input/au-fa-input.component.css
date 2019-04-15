@@ -12,7 +12,7 @@
   padding: 1px 0;
 }
 
-input {
+:host ::ng-deep  input {
   border: none;
   box-sizing: border-box;
   height: 100%;
