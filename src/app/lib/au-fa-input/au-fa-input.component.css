@@ -1,21 +1,2 @@
-.icon {
-  padding-left: .25rem;
-  padding-right: .25rem;
-  text-align: center;
-  width: 1.5rem;
-}
-
-:host {
-  background: white;
-  border: 1px solid lightgray;
-  display: inline-block;
-  padding: 1px 0;
-}
-
-:host ::ng-deep  input {
-  border: none;
-  box-sizing: border-box;
-  height: 100%;
-  margin: 1px 0;
-  outline: none;
-}
+@import "common.css";
+@import "au-fa-input-default-theme.css";
